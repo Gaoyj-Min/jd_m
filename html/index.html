@@ -9,26 +9,38 @@
     <title>Document</title>
     <style>
         .one{
-            width: 200px;
-            height: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+            width: 500px;
+            height: 500px;
             background-color: pink;
-            overflow: hidden;
+            
         }
-        .two{
-            /* position: fixed; */
-            float: left;
-            display: block;
-            width: 10%;
-            height: 50px;
-            margin: 100px auto;
-            background-color: black;
+        span{
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            margin: 10px  ;
         }
     </style>
 </head>
 <body>
     <div class="one">
-        <div class="two"></div>
-        <div class="two"></div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
     </div>
 </body>
 </html>
